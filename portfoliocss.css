@@ -1,0 +1,53 @@
+body {
+  padding-top:78px;
+  color: white;
+  font-size: 2em;
+ }
+img {
+  height: 250px;
+}
+h2 {
+  font-size: 3em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid grey;
+}
+.name {
+  background: linear-gradient(#7DAAF0, lightblue);
+  height:400px;
+  text-align: center;
+  padding-top: 100px;
+}
+  .name h1{
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+#portfolio{
+  color: black;
+  background-color: white;
+}
+#about_me{
+  background: linear-gradient(#26244A, darkblue);
+}
+#contact{
+  background: linear-gradient(#26244A, darkblue);
+}
+.header{
+  background-color: #2C3E50;
+  color: white;
+  height: 100px;
+}
+  .header ul{
+    padding: 20px 20px 10px 10px;
+  }
+  .header h3{
+    padding: 20px 20px 10px 10px;
+  }
+.resume{
+  padding: 20px;
+}
+.btn-social{
+  color: white;
+  font-size: 3em;
+}
