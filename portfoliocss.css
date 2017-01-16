@@ -26,12 +26,14 @@ h2 {
 #portfolio{
   color: black;
   background-color: white;
+  padding-bottom: 20px;
 }
 #about_me{
   background: linear-gradient(#26244A, darkblue);
 }
 #contact{
   background: linear-gradient(#26244A, darkblue);
+  padding-bottom: 50px;
 }
 .header{
   background-color: #2C3E50;
@@ -45,9 +47,16 @@ h2 {
     padding: 20px 20px 10px 10px;
   }
 .resume{
-  padding: 20px;
+  padding: 40px;
 }
 .btn-social{
   color: white;
   font-size: 3em;
 }
+.caption{
+  background: rgba(90, 90, 90, .5);
+}
+.slide{
+  height: 500px;
+}
+
