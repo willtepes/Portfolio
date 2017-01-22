@@ -14,7 +14,7 @@ h2 {
   border-bottom: 2px solid grey;
 }
 a {
-  color: purple;
+  color: lightgoldenrodyellow;
 }
 #name {
   background: linear-gradient(#7DAAF0, lightblue);
@@ -33,11 +33,11 @@ a {
   padding-top: 50px;
 }
 #about_me{
-  background: linear-gradient(#D2B48C, #E8D0A9);
+  background: linear-gradient(dimgray, darkslategrey);
   padding-top: 50px;
 }
 #contact{
-  background: linear-gradient(#C4F9C1, darkblue);
+  background: linear-gradient(#26244a, darkblue);
   padding-bottom: 50px;
   padding-top: 50px;
 }
@@ -61,7 +61,7 @@ a {
   height: 500px;
 }
 .navbar{
-  background-color: #ec7600;
+  background-color: #2C3E50;
   height: 100px; 
 }
 .nav.navbar-nav.navbar-right li a {
@@ -69,4 +69,11 @@ a {
 }
 .navbar-inverse.navbar-fixed-top.header h3{
   color: white;
+}
+ul {
+    letter-spacing: -1em; 
+}
+ul li {
+    display: inline;
+    letter-spacing: normal; /* Reset letter-spacing to normal value */
 }
