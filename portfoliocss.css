@@ -5,6 +5,7 @@ body {
  }
 img {
   height: 250px;
+  padding-bottom: 20px;
 }
 h2 {
   font-size: 3em;
@@ -13,9 +14,9 @@ h2 {
   padding-bottom: 30px;
   border-bottom: 2px solid grey;
 }
-a {
+/*a {
   color: lightgoldenrodyellow;
-}
+}*/
 #name {
   background: linear-gradient(#7DAAF0, lightblue);
   height:400px;
@@ -70,10 +71,10 @@ a {
 .navbar-inverse.navbar-fixed-top.header h3{
   color: white;
 }
-ul {
+/*ul {
     letter-spacing: -1em; 
 }
 ul li {
     display: inline;
     letter-spacing: normal; /* Reset letter-spacing to normal value */
-}
+}*/
