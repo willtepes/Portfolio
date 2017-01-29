@@ -14,9 +14,7 @@ h2 {
   padding-bottom: 30px;
   border-bottom: 2px solid grey;
 }
-/*a {
-  color: lightgoldenrodyellow;
-}*/
+
 #name {
   background: linear-gradient(#7DAAF0, lightblue);
   height:400px;
@@ -49,7 +47,9 @@ h2 {
     padding: 20px 20px 10px 10px;
   }
 .resume{
-  padding: 40px;
+  margin: 1em;
+  margin-left: 2em;
+ 
 }
 .btn-social{
   color: ivory;
@@ -71,10 +71,4 @@ h2 {
 .navbar-inverse.navbar-fixed-top.header h3{
   color: white;
 }
-/*ul {
-    letter-spacing: -1em; 
-}
-ul li {
-    display: inline;
-    letter-spacing: normal; /* Reset letter-spacing to normal value */
-}*/
+
