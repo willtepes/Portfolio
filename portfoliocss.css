@@ -4,9 +4,13 @@ body {
   font-size: 2em;
  }
 img {
-  height: 250px;
+  height: 300px;
   padding-bottom: 20px;
 }
+  img[alt="pic of Will Homan"] {
+    height: 300px;
+    padding: 50px;
+  }
 h2 {
   font-size: 3em;
   margin-top: 50px;
@@ -16,8 +20,10 @@ h2 {
 }
 
 #name {
-  background: linear-gradient(#7DAAF0, lightblue);
-  height:400px;
+  /*background: linear-gradient(#7DAAF0, lightblue);*/
+  background-image: url("sunset.jpg");
+  background-size: cover;
+  height:50em;
   text-align: center;
   padding-top: 100px;
 }
@@ -30,13 +36,17 @@ h2 {
   background-color: white;
   padding-bottom: 20px;
   padding-top: 50px;
+  height: 50em;
 }
 #about_me{
-  background: linear-gradient(dimgray, darkslategrey);
+  /*background: linear-gradient(dimgray, darkslategrey);*/
+  background-image: url("Mount-Si.jpg");
+  background-size: cover;
+  height:50em;
   padding-top: 50px;
 }
 #contact{
-  background: linear-gradient(#26244a, darkblue);
+  background-color: black;
   padding-bottom: 50px;
   padding-top: 50px;
 }
